@@ -1,15 +1,30 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
-    background-color: rgb(251, 251, 121)
+    background-color: rgb(251, 251, 121);
+}
+
+h1 {
+    background-color: burlywood;
+    display: inline-flex;
 }
 
 #headshot {
     height: auto;
     width: 200px;
+    display: block;
 }
 
-button {
-    font-weight: bold;
-    padding: 0;
+#socials a:hover,
+a:hover {
+    background-color: burlywood;
 }
 
 a {
@@ -25,4 +40,11 @@ a {
 #github {
     background-color: white;
     color: black;
+}
+
+box {
+    font-weight: bold;
+    border: 3px solid burlywood;
+    padding: 1px;
+    margin-right: 0px;
 }
