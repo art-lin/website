@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+.container > div {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(246, 169, 255);
+}
+
+.container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(251, 251, 121);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-title {
+    font-size: 20px;
+}
+
+box {
+    font-weight: bold;
+    border: 3px solid burlywood;
+    padding: 1px;
+    margin-right: 0px;
+}

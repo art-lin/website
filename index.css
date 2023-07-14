@@ -1,0 +1,19 @@
+#headshot {
+    height: auto;
+    width: 200px;
+    display: block;
+}
+
+#socials a:hover {
+    background-color: burlywood;
+}
+
+#linkedin {
+    background-color:rgb(0, 119, 181);
+    color: white;
+}
+
+#github {
+    background-color: white;
+    color: black;
+}
