@@ -21,7 +21,7 @@ nav ol {
     border-bottom: 2px solid hsla(53, 100%, 50%, 1);
 }
 
-.name {
+#name {
     margin-right: 15px;
     font-size: 25px;
 }
