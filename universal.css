@@ -43,6 +43,7 @@ a {
 .section-title {
     font-size: 20px;
     color: hsla(53, 100%, 50%, 1);
+    font-weight: bold;
 }
 
 box {
@@ -50,4 +51,8 @@ box {
     border: 1px solid hsla(53, 100%, 50%, 1);
     padding: 1px;
     margin-right: 0px;
+}
+
+p {
+    margin-right: 50%;
 }
