@@ -1,6 +1,6 @@
 #headshot {
     height: auto;
-    width: 200px;
+    width: 10%;
     display: block;
 }
 
@@ -16,4 +16,8 @@
 #github {
     background-color: white;
     color: black;
+}
+
+p {
+    margin-right: 50%;
 }
