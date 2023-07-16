@@ -7,18 +7,23 @@ html {
     box-sizing: inherit;
   }
 
-.container > div {
+nav ol {
+    display: flex;
     flex: 1;
     text-align: center;
     padding: 10px;
     font-size: 20px;
     background-color: black(246, 169, 255);
     color: white;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid hsla(53, 100%, 50%, 1);
 }
 
-.container {
-    display: flex;
-    margin-bottom: 10px;
+.name {
+    margin-right: 15px;
+    font-size: 25px;
 }
 
 body {
