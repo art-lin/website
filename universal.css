@@ -9,6 +9,7 @@ html {
 
 nav ol {
     display: flex;
+    flex-flow: row wrap;
     flex: 1;
     text-align: center;
     padding: 10px;
