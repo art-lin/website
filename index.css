@@ -9,16 +9,6 @@
     background-color: hsla(53, 100%, 50%, 1);
 }
 
-#linkedin {
-    background-color:rgb(0, 119, 181);
-    color: white;
-}
-
-#github {
-    background-color: white;
-    color: black;
-}
-
 p {
     margin-right: 50%;
 }

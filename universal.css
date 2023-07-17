@@ -26,6 +26,21 @@ nav ol {
     font-size: 25px;
 }
 
+#linkedin {
+    background-color:rgb(0, 119, 181);
+    color: white;
+}
+
+#github {
+    background-color: white;
+    color: black;
+}
+
+#email {
+    background-color: orangered;
+    color: white
+}
+
 body {
     background-color: black;
     color: white;
@@ -44,11 +59,12 @@ a {
     font-size: 20px;
     color: hsla(53, 100%, 50%, 1);
     font-weight: bold;
+    display: flex;
 }
 
 box {
-    font-weight: bold;
     border: 1px solid hsla(53, 100%, 50%, 1);
     padding: 1px;
     margin-right: 0px;
+    font-size: 20px;
 }
