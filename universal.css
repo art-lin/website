@@ -24,9 +24,14 @@ nav {
 nav ol {
     list-style-type: none;
     display: flex;
-    margin: 5px;
+    margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 17px;
+}
+
+nav ol div {
+    display: flex;
+    align-items: center;
 }
 
 #name {
