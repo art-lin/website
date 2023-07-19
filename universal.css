@@ -7,19 +7,26 @@ html {
     box-sizing: inherit;
   }
 
-nav ol {
+nav {
     display: flex;
-    flex-flow: row wrap;
     flex: 1;
-    text-align: center;
+    margin: 0;
     padding: 10px;
     font-size: 20px;
     background-color: black(246, 169, 255);
     color: white;
-    gap: 25px;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
     border-bottom: 2px solid hsla(53, 100%, 50%, 1);
+}
+
+nav ol {
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    gap: 10px;
 }
 
 #name {
