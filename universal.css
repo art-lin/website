@@ -7,20 +7,50 @@ html {
     box-sizing: inherit;
   }
 
-nav {
-    display: flex;
-    flex: 1;
-    margin: 12px;
-    padding: 10px;
-    font-size: 20px;
-    background-color: black(246, 169, 255);
+  body {
+    background: black;
     color: white;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid hsla(53, 100%, 50%, 1);
+    margin: 0;
 }
 
-nav ol {
+.header {
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    background: rgb(35, 35, 35);
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(107, 107, 107)
+}
+
+.header ul li {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+box {
+    border: 1px solid hsla(53, 100%, 50%, 1);
+    padding: 1px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin: 12px;
+}
+
+ul {
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -28,14 +58,10 @@ nav ol {
     gap: 17px;
 }
 
-nav ol div {
+.left, .right {
     display: flex;
+    gap: 17px;
     align-items: center;
-}
-
-#name {
-    margin-right: 15px;
-    font-size: 25px;
 }
 
 #linkedin {
@@ -53,18 +79,8 @@ nav ol div {
     color: white
 }
 
-body {
-    background-color: black;
-    color: white;
-}
-
 a:hover {
     text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 .section-title {
@@ -72,15 +88,4 @@ a {
     color: hsla(53, 100%, 50%, 1);
     font-weight: bold;
     display: flex;
-}
-
-box {
-    border: 1px solid hsla(53, 100%, 50%, 1);
-    padding: 1px;
-    margin-right: 0px;
-    font-size: 20px;
-}
-
-.content {
-    margin: 12px;
 }
