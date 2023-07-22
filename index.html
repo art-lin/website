@@ -2,51 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Arthur Lin</title>
     <link rel = 'stylesheet' href = 'universal.css' />
     <link rel = 'stylesheet' href = 'index.css' />
+    <title>Arthur Lin</title>
 </head>
 <body>
-    <div class = 'header'>
-        <div class = 'left'>
-            <ul> 
-                <li class = 'name'><a href = './index.html'>Arthur Lin</a></li>
-                <li><a href = './photos.html'>Photos</a></li>
-                <li><a href = './reading.html'>Reading</a></li>
-            </ul>
+    <div class = 'container'>
+        <div class = 'header'>
+            <div class = 'left'>
+                <a class = 'name' href = './index.html'>Arthur Lin</a>
+                <a href = './photos.html'>Photos</a>
+                <a href = './reading.html'>Reading</a>
+            </div>
+            <div class = 'right'>
+                <ul>
+                    <box><a id = 'linkedin' href = 'https://www.linkedin.com/in/art-lin/' target = '_blank'>LinkedIn</a></box>
+                    <box><a id = 'github' href = 'https://github.com/art-lin' target = '_blank'>GitHub</a></box>
+                    <box><a id = 'email' href = 'mailto: arthurlin2001@gmail.com'>eMail</a></box>
+                </ul>
+            </div>
         </div>
-        <div class = 'right'>
-            <ul>
-                <box><a id = 'linkedin' href = 'https://www.linkedin.com/in/art-lin/' target = '_blank'>LinkedIn</a></box>
-                <box><a id = 'github' href = 'https://github.com/art-lin' target = '_blank'>GitHub</a></box>
-                <box><a id = 'email' href = 'mailto: arthurlin2001@gmail.com'>eMail</a></box>
-            </ul>
+        
+        <div class = 'content'>
+            <div class = 'sections'>
+                <div>
+                    <p class = 'section-title'>Welcome!</p>
+                    <p>
+                        I'm Arthur Lin, a senior studying finance at the University of Maryland's Robert H. Smith School of Business. I'm currently
+                        learning web development through <a href = 'https://www.theodinproject.com/' target = '_blank'>The Odin Project</a>, 
+                        and using what I've learned to build this website.
+                    </p>
+                </div>
+                <div>
+                    <p class = 'section-title'>Skills</p>
+                    <p>Listed by experience level, most to least:</p>
+                        <ol>
+                            <li>HTML + CSS</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Excel VBA</li>
+                            <li>R</li>
+                        </ol>
+                </div>
+                <div>
+                    <p class = 'section-title'>Languages</p>
+                    <p>
+                        I'm passionate about language-learning. Currently, I'm focused on Mandarin and Korean, as China and South Korea
+                        are the top two countries I'd love to travel to in the future.
+                    </p>
+                </div>
+            </div>
+            <div class = 'headshot'>
+                <img src = './images/headshot.JPG' alt = 'Arthur Lin headshot'/>
+            </div>
         </div>
-    </div>
-    <div class = 'content'>
-        <img id = 'headshot' src = './images/headshot.JPG' alt = 'Arthur Lin headshot'/>
-        <p class = 'section-title'>Welcome!</p>
-        <p>
-            I'm Arthur Lin, a senior studying finance at the University of Maryland's Robert H. Smith School of Business. I'm currently
-            learning web development through <a href = 'https://www.theodinproject.com/' target = '_blank'>The Odin Project</a>, 
-            and using what I've learned to build this website.
-        </p>
-
-        <p class = 'section-title'>Skills</p>
-        <p>Listed by experience level, most to least:</p>
-            <ol>
-                <li>HTML + CSS</li>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Excel VBA</li>
-                <li>R</li>
-            </ol>
-
-        <p class = 'section-title'>Languages</p>
-        <p>
-            I'm passionate about language-learning. Currently, I'm focused on Mandarin and Korean, as China and South Korea
-            are the top two countries I'd love to travel to in the future.
-        </p>
     </div>
 </body>
 </html>
