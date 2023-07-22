@@ -1,10 +1,20 @@
-#headshot {
-    height: auto;
-    width: 15%;
-    display: block;
-    margin-bottom: 15px;
+.container{
+    display: flex;
+    flex-direction: column;
 }
 
-p {
-    margin-right: 50%;
+.headshot img {
+    height: auto;
+    width: 40%;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.sections {
+    flex-direction: column;
+    margin-right: 100px;
 }
