@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 body {
-    background: black;
+    background-image: linear-gradient(to right, orange, gold);
     color: white;
     padding: 0;
     margin: 0;
+    font-family: 'Merriweather';
 }
 
 .header {
     display: flex;
     padding: 15px;
     font-size: 20px;
-    background: rgb(35, 35, 35);
+    background-image: linear-gradient(to right, orange, gold);
     justify-content: space-between;
-    border-bottom: 1px solid rgb(107, 107, 107);
+    border-bottom: 2px solid white;
+    position: sticky;
+    top: 0;
 }
 
 .name {
@@ -22,7 +27,7 @@ body {
 }
 
 box {
-    border: 1px solid hsla(53, 100%, 50%, 1);
+    border: 5px outset white;
     padding: 1px;
     margin-right: 0px;
     font-size: 20px;
