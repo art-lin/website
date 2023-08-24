@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right, orange, gold);
+    background-color: black;
     color: white;
     padding: 0;
     margin: 0;
@@ -12,9 +12,9 @@ body {
     display: flex;
     padding: 15px;
     font-size: 20px;
-    background-image: linear-gradient(to right, orange, gold);
+    background-color: black;
     justify-content: space-between;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid hsla(53, 100%, 50%, 1);
     position: sticky;
     top: 0;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 box {
-    border: 5px outset white;
+    border: 2px solid hsla(53, 100%, 50%, 1);
     padding: 1px;
     margin-right: 0px;
     font-size: 20px;
