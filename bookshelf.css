@@ -5,9 +5,9 @@
 
 .book-cover img {
   height: auto;
-  width: 150px;
+  width: 125px;
   display: flex;
-  border: 5px outset white;
+  border: 2px solid hsla(53, 100%, 50%, 1);
 }
 
 .content {
