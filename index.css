@@ -5,16 +5,17 @@
 
 .headshot img {
     height: auto;
-    width: 40%;
+    width: 50%;
     display: flex;
     border: solid white 5px;
     border-radius: 25% 10%;
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 .content {
     display: flex;
     align-items: center;
+    margin-right: 10%;
 }
 
 .sections {
