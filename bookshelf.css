@@ -7,7 +7,7 @@
   height: auto;
   width: 125px;
   display: flex;
-  border: 2px solid white;
+  border: 2px solid royalblue;
 }
 
 .content {
@@ -27,7 +27,7 @@
 
 .title {
   font-size: 20px;
-  color: hsla(53, 100%, 50%, 1);
+  color: royalblue;
   font-weight: bold;
   font-style: italic; 
   display: flex;
