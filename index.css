@@ -1,23 +1,8 @@
-.container{
-    display: flex;
-    flex-direction: column;
-}
-
 .headshot img {
     height: auto;
-    width: 50%;
+    width: 40%;
     display: flex;
-    border: solid royalblue 5px;
+    border: solid 5px var(--color-base-text);
     border-radius: 25% 10%;
-    margin-left: 50%;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    margin-right: 10%;
-}
-
-.sections {
-    flex-direction: column;
+    margin-left: 30%;
 }
