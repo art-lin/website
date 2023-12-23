@@ -11,12 +11,16 @@
     <div class = 'header'>
         <div class = 'left'>
             <a class = 'name' href = './index.html'>Arthur Lin</a>
-            <a href = './bookshelf.html'>Bookshelf</a>
-            <a href = './favorites.html'>Favorites</a>
             <a href = './projects.html'>Projects</a>
+            <a href = './bookshelf.html'>Bookshelf</a>
         </div>
         <div class = 'right'>
             <ul>
+                <div>
+                  <button id = "themeBtn" onclick="toggleTheme()">
+                                               
+                  </button>
+                </div>
                 <box><a id = 'linkedin' href = 'https://www.linkedin.com/in/art-lin/' target = '_blank'>LinkedIn</a></box>
                 <box><a id = 'github' href = 'https://github.com/art-lin' target = '_blank'>GitHub</a></box>
                 <box><a id = 'email' href = 'mailto: arthurlin2001@gmail.com'>eMail</a></box>
@@ -31,8 +35,8 @@
             Collaborated to analyze a dataset and determine predictability of excess stock returns.
           </p>
           <p>
-            Contributions: Researched and implemented scikit-learn methods to create a random forest regression;
-            performed cross-validation on random forest, lasso, and linear regression models to determine the most accurate model for prediction.
+            Researched and implemented scikit-learn methods to create a random forest regression,
+            Performed cross-validation on random forest, lasso, and linear regression models to determine the most accurate model for prediction.
           </p>   
         </div>
     </div>
@@ -41,13 +45,14 @@
           <a class = 'title' href = 'https://docs.google.com/document/d/1cK5WmApIagl2BwS6kpnnKEIul2o3g2cubyqyvmsehHY/edit?usp=sharing' target = '_blank'>Taylor Swift Song Popularity (Danceability) Project</a>
           <p class = 'details'>Team Project ◆ Data Modeling in Business (Undergrad) ◆ R</p>
           <p>
-            Collaborated to create a regression model in R that predicts Taylor Swift song popularity.
+            Collaborated to create a regression model that predicts Taylor Swift song popularity.
           </p>
           <p>
-            Contributions: Posed two research questions and created associated null and alternative hypotheses. Evaluated hypotheses using regression output, ANOVA tables, and t-tests.
+            Posed two research questions and created associated null and alternative hypotheses. Evaluated hypotheses using regression output, ANOVA tables, and t-tests.
             Explained the real-world context of each coefficient in the regression model.
           </p>   
         </div>
     </div>
+    <script src="theme.js"></script>
 </body>
 </html>

@@ -8,27 +8,29 @@
     <title>Arthur Lin</title>
 </head>
 <body>
-    <div class = 'container'>
         <div class = 'header'>
             <div class = 'left'>
                 <a class = 'name' href = './index.html'>Arthur Lin</a>
-                <a href = './bookshelf.html'>Bookshelf</a>
-                <a href = './favorites.html'>Favorites</a>
                 <a href = './projects.html'>Projects</a>
+                <a href = './bookshelf.html'>Bookshelf</a>
             </div>
             <div class = 'right'>
                 <ul>
+                    <div>
+                        <button id = "themeBtn" onclick="toggleTheme()">
+                                                       
+                        </button>
+                    </div>
                     <box><a id = 'linkedin' href = 'https://www.linkedin.com/in/art-lin/' target = '_blank'>LinkedIn</a></box>
                     <box><a id = 'github' href = 'https://github.com/art-lin' target = '_blank'>GitHub</a></box>
                     <box><a id = 'email' href = 'mailto: arthurlin2001@gmail.com'>eMail</a></box>
                 </ul>
             </div>
         </div>
-        
         <div class = 'content'>
-            <div class = 'sections'>
+            <div>
                 <div>
-                    <p class = 'section-title'>Welcome!</p>
+                    <p class = 'title'>Welcome!</p>
                     <p>
                         I'm Arthur Lin, a senior studying finance at the University of Maryland's Robert H. Smith School of Business. I learned
                         HTML and CSS from <a href = 'https://www.theodinproject.com/' target = '_blank'>The Odin Project</a>, 
@@ -36,16 +38,14 @@
                     </p>
                 </div>
                 <div>
-                    <p class = 'section-title'>Skills</p>
-                    <p>By experience level, most to least:</p>
-                    <p>HTML/CSS, Python, SQL, R, Excel VBA</p>    
+                    <p class = 'title'>Skills</p>
+                    <p>Python, R, SQL, Excel VBA, HTML/CSS</p>    
                 </div>
                 <div>
-                    <p class = 'section-title'>Interests</p>
+                    <p class = 'title'>Interests</p>
                     <p>
-                        In my free time, I enjoy going to the gym, reading, investing, keeping up with the NBA, watching tv and movies, and listening to podcasts.
-                        Check out <a href = './bookshelf.html'>Bookshelf</a> for book recommendations and <a href = './favorites.html'>Favorites</a> for some film/TV, podcast,
-                        and anime recommendations. 
+                        In my free time, I enjoy going to the gym, listening to podcasts, investing, and spending too much time on YouTube or Netflix. I've also gotten into <a href = 'https://www.chess.com/member/ace000000001' target = '_blank'>chess</a> recently
+                        and try to play at least a game a day.
                     </p>
                 </div>
             </div>
@@ -53,6 +53,6 @@
                 <img src = './images/headshot.JPG' alt = 'Arthur Lin headshot'/>
             </div>
         </div>
-    </div>
+        <script src="theme.js"></script>
 </body>
 </html>
