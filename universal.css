@@ -1,26 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-body {
-    background-color: whitesmoke;
-    color: royalblue;
-    padding: 0;
-    margin: 0;
-    font-family: 'Merriweather';
+.light {
+    --color-base-bg: whitesmoke;
+    --color-base-text: royalblue;
+    --color-btn-bg: whitesmoke;
+    --header-and-label-color: black;
 }
 
-.header > .left {
-    color: royalblue
+.dark {
+    --color-base-bg: black;
+    --color-base-text: gold;
+    --color-btn-bg: black;
+    --header-and-label-color: whitesmoke;
 }
 
 .header {
     display: flex;
+    position: sticky;
     padding: 15px;
     font-size: 20px;
-    background-color: whitesmoke;
+    color: var(--header-and-label-color);
+    background-color: var(--color-base-bg);
     justify-content: space-between;
-    border-bottom: 5px solid royalblue;
-    position: sticky;
+    border-bottom: 5px solid; 
+    border-bottom-color: var(--color-base-text);
     top: 0;
+}
+
+#themeBtn {
+    width: 30px;
+    height: 30px;
+}
+
+.content,
+#theme {
+    color: var(--color-base-text);
+}
+
+body {
+    background-color: var(--color-base-bg);
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather';
 }
 
 .name {
@@ -30,19 +51,29 @@ body {
     font-style: italic;
 }
 
-box {
-    border: 2px solid royalblue;
+box, button {
+    height: 100%;
+    width: auto;
+    border: 2px solid;
+    border-color: var(--color-base-text);
     padding: 1px;
     margin-right: 0px;
     font-size: 20px;
+    font-family: 'Merriweather';
+}
+
+.header > .left > a {
+    color: var(--header-and-label-color)
 }
 
 a {
     text-decoration: none;
-    color: royalblue;
+    color: var(--color-base-text);
 }
 
 .content {
+    align-items: center;
+    display: flex;
     margin: 12px;
     font-size: 18px;
 }
@@ -80,11 +111,21 @@ a:hover {
     text-decoration: underline;
 }
 
-.section-title {
+.title {
     font-size: 20px;
-    color: royalblue;
+    color: var(--header-and-label-color);
     font-weight: bold;
+    font-style: italic; 
     display: flex;
     margin-top: 20px;
-    margin-bottom: 0
+    margin-bottom: 0;
+}
+  
+#theme {
+    background-color: var(--color-btn-bg);
+    color: var(--color-base-text);
+}
+  
+button:hover {
+    cursor: pointer;
 }
