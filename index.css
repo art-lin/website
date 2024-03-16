@@ -1,6 +1,6 @@
 .headshot img {
     height: auto;
-    width: 40%;
+    width: 30%;
     display: flex;
     border: solid 5px var(--color-base-text);
     border-radius: 25% 10%;
